@@ -1,4 +1,58 @@
 
+body{
+    /* Fuente */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    /* fondo */
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header */
+
+.header{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+}
+
+
+/* Barra de nav */
+
+nav ul li {
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+nav li a {
+    
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+nav li a:hover{
+    background-color: white;
+}
+
+.white{
+    color: white;
+}
+
+.hamburguesa{
+    background-color: white;
+}
+
+
+
+
+
+
 /* Logo wpp */
 .logo_wsp{
     width: 70px;
@@ -9,7 +63,7 @@
 
 /* animacion de wpp */
 .logo_wsp{
-    animation:logo_wsp 1.5s ease-in-out infinite both
+    animation:logo_wsp 1.5s ease-in-out infinite both;
     
 
 }
@@ -17,21 +71,28 @@
 @keyframes logo_wsp{
     from{transform:scale(1);
         transform-origin:center center;
-        animation-timing-function:ease-out
+        animation-timing-function:ease-out;
     }
     10%{
         transform:scale(.91);
-        animation-timing-function:ease-in
+        animation-timing-function:ease-in;
     }
     17%{
-        transform:scale(.98);animation-timing-function:ease-out
+        transform:scale(.98);animation-timing-function:ease-out;
     }
     33%{
         transform:scale(.87);
-        animation-timing-function:ease-in
+        animation-timing-function:ease-in;
     }
     45%{
-        transform:scale(1);animation-timing-function:ease-out
+        transform:scale(1);animation-timing-function:ease-out;
     }
+}
+
+
+/* img */
+
+img{
+    max-width: 100%;
 }
 
