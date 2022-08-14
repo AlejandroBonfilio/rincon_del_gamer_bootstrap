@@ -10,16 +10,12 @@ body{
     background-size: cover;
 }
 
-/* Header */
-
-.header{
-    background-color: rgba(0, 0, 0, 0.2);
-}
 
 h1 {
     font-weight: 400;
     font-size: 3rem;
     color: white;
+    padding: 10px 0px 0px 10px;
 }
 
 
@@ -47,10 +43,6 @@ nav li a:hover{
 .hamburguesa{
     background-color: white;
 }
-
-
-
-
 
 
 /* Logo wpp */
