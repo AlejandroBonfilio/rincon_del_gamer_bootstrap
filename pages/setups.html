@@ -42,44 +42,43 @@
             </div>
         </nav>
     </header>
-    <div>  
-        <main>
+        <main class="container">
             <div>
-                <h2>Accesorios imprescindibles para tu setup gaming</h2>
+                <h2 class="section__titulo">Accesorios imprescindibles para tu setup gaming</h2>
             </div>
-            <section>
-                <div>
+            <section class="row">
+                <div class="col-lg-6 setup-card">
                     <article>
                         <h4>¿Que debo tener?</h4>
                         <p>Montar un setup gaming completo es el sueño de todo gamer que se precie. Cada uno tiene su selección de lo que debe contener y cómo debe estar dispuesto. No obstante, desde El Rincon del Gamer pensamos que hay al menos 5 periféricos básicos que no pueden faltar:</p>
-                        <div>
+                        <div class="setup-card__img">
                             <img src="../imagenes/setup.jpg" alt="Setups" title="Setup">
                         </div>    
                     </article>
                 </div>
-                <article>
-                    <h4>1.Silla gaming</h4>
+                <article class="col-lg-6 setup-card">
+                    <h4>Silla gaming</h4>
                     <p>Es imprescindible que en la configuración de nuestro puesto incluyamos una silla gaming especializada. Esto, hasta hace muy poco, era un lujo que pocos se podían permitir ya que este tipo de sillas era muy escaso y normalmente, bastante caro. Sin embargo, de un tiempo a esta parte, encontrar sillas gaming de calidad y disponer de las ventajas de una gran comodidad y ergonomía está ya al alcance de todos.</p>
                     <div>
                         <img src="../imagenes/silla.jpg" alt="Silla" title="Silla">
                     </div>
-                </article>
-                <article>
-                    <h4>2.Teclado mecánico</h4>
+                </article> 
+                <article class="col-lg-6 setup-card">
+                    <h4>Teclado mecánico</h4>
                     <p>Van a ser muchas las veces que vamos a pulsar en cada tecla, por lo que los ingenieros han ideado mecanismos que duren todo lo posible. De hecho, hay personas que no juegan habitualmente y sin embargo eligen un teclado mecánico gaming para trabajar con él por este motivo.</p>
                     <div>    
                         <img src="../imagenes/teclado.jpg" alt="teclado" title="Teclado">
                     </div>
                 </article>
-                <article>
-                    <h4>3.Mouse</h4>
+                <article class="col-lg-6 setup-card">
+                    <h4>Mouse</h4>
                     <p>Dependiendo al tipo de videojuego al que se juegue, hay diferentes necesidades. Para juegos MOBA (Multiplayer Online Battle Arena) uno de los géneros más populares en los eSports, es necesaria una alta precisión, velocidad y versatilidad a la hora de llevar acciones a cabo. Esto requiere que el mouse tenga diferentes botones que nos permitan realizar las combinaciones necesarias o incluso programarlas en ellos para el desarrollo del juego. Sin embargo para otros géneros las necesidades serán diferentes: desde precisión y comodidad hasta rapidez de reacción.</p>
                     <div>
                         <img src="../imagenes/mouse.jpeg" alt="mouse" title="Mouse">
                     </div>
                 </article>
-                <article>
-                    <h4>4.Monitores gaming</h4>
+                <article class="col-lg-6 setup-card">
+                    <h4>Monitores gaming</h4>
                     <h5>Tiempo de respuesta y frecuencia de respuesta</h5>
                     <p>Deben tener un tiempo de respuesta y frecuencia de refresco altos: esto determina la nitidez y la rapidez con la que se ve el movimiento en la pantalla, determinante a la hora de la precisión en el juego.</p>
                     <h5>Resolución de la pantalla</h5>
@@ -88,8 +87,8 @@
                         <img src="../imagenes/monitor.jpg" alt="Monitor" title="Monitor">
                     </div>
                 </article>
-                <article>
-                    <h4>5.Mousepad</h4>
+                <article class="col-lg-6 setup-card">
+                    <h4>Mousepad</h4>
                     <p>Un buen setup gaming debe tener una base adecuada y una superficie sobre la que puedan establecerse la mayoría de los elementos de los que ya hemos hablado anteriormente: una buena alfombrilla.Las hay de diversos tamaños pero, por lo general, suelen ser mayores a las que estamos acostumbrados, puesto que a la hora de jugar es necesaria una mayor amplitud de movimientos para el ratón.</p>
                     <div>    
                         <img src="../imagenes/mousepad.jpg" alt="mousepad" title="Mousepad">
@@ -97,36 +96,43 @@
                 </article>
             </section>
         </main>
-        <div >
-            <h2>Articulos Interesantes</h2>
-        </div>
         <aside>
-            <article>
-                <a href="../pages/tienda.html">
-                    <h4>Visita nuestra tienda</h4>
-                </a>
-                <a href="../pages/tienda.html">
-                    <img src="../imagenes/tienda.jpg" alt="Taza" title="Taza">
-                </a>
-            </article>
-            <article>
-                <a href="../pages/juegos.html">
-                    <h4>Starfield se retrasa</h4>
-                </a>
-                <a href="../pages/juegos.html">
-                    <img src="../imagenes/starfield.jpg" alt="starfield" title="Starfield">
-                </a>
-            </article>
-            <article>
-                <a href="../pages/setups.html">
-                    <h4>Como armar un buen setup</h4>
-                </a>
-                <a href="../pages/setups.html">
-                    <img src="../imagenes/setup1.png" alt="Setup" title="Setup">
-                </a>
-            </article>
+            <div >
+                <h2>Artículos Interesantes</h2>
+            </div>
+            <div class="row">    
+                <div class="col-md">
+                    <article class="articulo-aside">
+                        <a href="tienda.html">
+                            <h4>Visitá nuestra tienda</h4>
+                        </a>
+                        <a href="tienda.html">
+                            <img src="../imagenes/tienda.jpg" alt="Taza" title="Taza">
+                        </a>
+                    </article>
+                </div>
+                <div class="col-md">
+                    <article class="articulo-aside">
+                        <a href="juegos.html">
+                            <h4>Starfield se retrasa</h4>
+                        </a>
+                        <a href="juegos.html">
+                            <img src="../imagenes/starfield.jpg" alt="starfield" title="Starfield">
+                        </a>
+                    </article>
+                </div>
+                <div class="col-md">
+                    <article class="articulo-aside">
+                        <a href="setups.html">
+                            <h4>Como armar un buen setup</h4>
+                        </a>
+                        <a href="setups.html">
+                            <img src="../imagenes/setup1.png" alt="Setup" title="Setup">
+                        </a>
+                    </article>
+                </div>
+            </div>    
         </aside>
-    </div> 
     <footer class="bg-dark text-center text-white">
         <div class="container p-4">
             <section class="mb-4">
