@@ -42,13 +42,15 @@
             </div>
         </nav>
     </header>
-    <section>
-            <div >
-                <h2>Para recibir mas INFO sobre el mundo gamer completá este formulario:</h2>
-                <img src="../imagenes/avion.png" alt="">
-                
+    <section class="container">
+        <div class="row-1">
+            <div class="col">
+                <h2 class="section__titulo titulo_formulario">Para recibir mas INFO sobre el mundo gamer completá este formulario...</h2>
             </div>
-            <form method="post">
+            <div class="col">
+                <img class="avion" src="../imagenes/avion.png" alt="">
+            </div>
+            <form class="col formulario" method="post">
                 <div>
                     <label for="name">Nombre:</label>
                     <input id="name" placeholder="Nombre" name="name">
@@ -71,7 +73,7 @@
                 <div>
                     <label for="comentario">Deje su comentario: </label>
                     <br><br>
-                    <textarea name="comentario" id="comentario" cols="55" rows="10" placeholder="Ingrese comentario..."></textarea>
+                    <textarea name="comentario" id="comentario" cols="45" rows="10" placeholder="Ingrese comentario..."></textarea>
                 </div><br><br>
                 <div>
                     <label for="checkbox">Quiero recibir novedades en mi Email</label>
@@ -81,6 +83,7 @@
                     <input type="submit" name="enviar" id="enviar" value="Suscribirse">
                 </div><br><br><br>
             </form>
+        </div>  
     </section>
     <footer class="bg-dark text-center text-white">
         <div class="container p-4">

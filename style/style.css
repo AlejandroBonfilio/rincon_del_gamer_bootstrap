@@ -291,8 +291,50 @@ aside div h4{
 
 /* -----tienda.html------ */
 
+/* contacto.html */
+
+.formulario{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+    margin: 20px;
+    background-color: rgba(16, 32, 85, 0.411);
+}
 
 
+/* animacion del avion de formulario */
 
+.avion{
+    width: 200px;
+    
+    animation-name: avion;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes avion {
+    
+    0%{
+        transform: translate(0px,0px) rotateX(20deg);
+        
+    }
+    
+    25%{
+        transform: translate(180px,90px) rotateX(45deg);
+    }
+    
+    50%{
+        transform: translate(360px,180px) scale(2);
+    }
 
+    75%{
+        transform: translate(550px) rotateX(225deg);
+    }    
+        
+    
+    100%{
+        transform: translate(500px 300px);
+        
+    }
+}
