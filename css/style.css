@@ -7,31 +7,29 @@ body {
   background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 49%, rgb(0, 212, 255) 94%);
   background-repeat: no-repeat;
   background-size: cover;
+  /* Barra de nav */
 }
-
-a {
+body a {
   text-decoration: none;
 }
-
-h1 {
+body h1 {
   font-weight: 400;
   font-size: 3rem;
   color: white;
   padding: 10px 0px 0px 10px;
 }
-
-/* Barra de nav */
-nav ul li {
+body img {
+  max-width: 100%;
+}
+body nav ul li {
   text-align: center;
   margin: 0 10px 0 0;
 }
-
-nav li a {
+body nav ul li a {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
 }
-
-nav li a:hover {
+body nav ul li a:hover {
   background-color: white;
 }
 
@@ -49,10 +47,7 @@ nav li a:hover {
   position: fixed;
   bottom: 25px;
   right: 1vw;
-}
-
-/* animacion de wpp */
-.logo_wsp {
+  /* animacion de wpp */
   animation: logo_wsp 1.5s ease-in-out infinite both;
 }
 
@@ -79,11 +74,6 @@ nav li a:hover {
     animation-timing-function: ease-out;
   }
 }
-/* img */
-img {
-  max-width: 100%;
-}
-
 /* INDEX.HTML */
 /* MAIN */
 .section__titulo {
@@ -99,19 +89,16 @@ img {
   margin: 0px 50px 30px 0px;
   background-color: rgba(0, 0, 0, 0.418);
 }
-
 .noticia__titulo {
   font-size: 1.5rem;
   font-weight: 400;
   padding: 20px;
 }
-
 .noticia__parrafo {
   font-size: 1rem;
   font-weight: 400;
   padding: 20px;
 }
-
 .noticia__img {
   max-width: 100%;
 }
@@ -122,13 +109,11 @@ aside {
   text-align: center;
   font-weight: 200;
 }
-
 aside div h2 {
   margin: 100px 30px 30px 0px;
   font-weight: 200;
   font-size: 1.5rem;
 }
-
 aside div h4 {
   color: white;
   font-weight: 200;
@@ -152,7 +137,6 @@ aside div h4 {
   font-weight: 200;
   font-size: 1.5rem;
 }
-
 .juegos-aside__iframe {
   height: 100vh;
   width: 100%;
@@ -164,8 +148,7 @@ aside div h4 {
   padding: 20px;
   margin: 20px;
 }
-
-.parrafo-juego {
+.juegos__parrafos {
   padding: 10px;
 }
 
@@ -178,13 +161,12 @@ aside div h4 {
 
 /* tienda.html */
 /* carrusel */
+.carousel-inner {
+  height: 450px;
+}
 .carousel-inner img {
   width: 100%;
   max-height: 460px;
-}
-
-.carousel-inner {
-  height: 450px;
 }
 
 /* card */
@@ -201,9 +183,17 @@ aside div h4 {
   justify-content: space-around;
   align-items: center;
 }
-
 .producto__valor {
   padding: 20px;
+}
+.producto__imagen {
+  max-width: 200px;
+  max-height: 200px;
+  /* animacion de tarjetas de tienda (imagenes con zoom) */
+}
+.producto__imagen:hover {
+  cursor: zoom-in;
+  transform: scale(1.5);
 }
 
 .boton {
@@ -211,23 +201,11 @@ aside div h4 {
   background-color: rgba(14, 192, 216, 0.397);
   padding: 10px 15px;
   border-radius: 20px;
+  /* animacion de boton agregar carrito */
 }
-
-.producto__imagen {
-  max-width: 200px;
-  max-height: 200px;
-}
-
-/* animacion de boton agregar carrito */
 .boton:hover {
   transition-delay: 0.5ms;
   background-color: rgba(14, 192, 216, 0.801);
-}
-
-/* animacion de tarjetas de tienda (imagenes con zoom) */
-.producto__imagen:hover {
-  cursor: zoom-in;
-  transform: scale(1.5);
 }
 
 /* -----tienda.html------ */

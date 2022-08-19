@@ -8,37 +8,36 @@ body{
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 94%);
     background-repeat: no-repeat;
     background-size: cover;
-   
-}
 
-a{
-    text-decoration: none;
-}
-
-
-h1 {
-    font-weight: 400;
-    font-size: 3rem;
-    color: white;
-    padding: 10px 0px 0px 10px;
-}
-
-
-/* Barra de nav */
-
-nav ul li {
-    text-align: center;
-    margin: 0 10px 0 0;
-}
-
-nav li a {
+    a{
+        text-decoration: none;
+    }
     
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-}
+    h1 {
+        font-weight: 400;
+        font-size: 3rem;
+        color: white;
+        padding: 10px 0px 0px 10px;
+    }
+    
+    img{
+        max-width: 100%;
+    }
 
-nav li a:hover{
-    background-color: white;
+    /* Barra de nav */
+
+    nav ul li {
+        text-align: center;
+        margin: 0 10px 0 0;
+
+        a{
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            &:hover{
+                background-color: white;
+            }
+        }
+    }
 }
 
 .white{
@@ -49,20 +48,15 @@ nav li a:hover{
     background-color: white;
 }
 
-
 /* Logo wpp */
 .logo_wsp{
     width: 70px;
     position: fixed;
     bottom: 25px;
     right: 1vw;
-}
-
-/* animacion de wpp */
-.logo_wsp{
-    animation:logo_wsp 1.5s ease-in-out infinite both;
     
-
+    /* animacion de wpp */
+    animation:logo_wsp 1.5s ease-in-out infinite both;
 }
 
 @keyframes logo_wsp{
@@ -86,18 +80,9 @@ nav li a:hover{
     }
 }
 
-
-/* img */
-
-img{
-    max-width: 100%;
-}
-
-
 /* INDEX.HTML */
 
 /* MAIN */
-
 
 .section__titulo {
     margin: 30px 50px 20px 0px;
@@ -105,35 +90,29 @@ img{
     font-weight: 400;
     
     text-align: center;
-    
 }
-
 
 .noticia {
     width: 100%;
     padding: 30px;
     margin: 0px 50px 30px 0px;
     background-color: rgba(0, 0, 0, 0.418);
-}
 
+    &__titulo{
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 20px;
+    }
+    
+    &__parrafo{
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 20px;
+    }
 
-
-.noticia__titulo {
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding: 20px;
-
-}
-
-.noticia__parrafo {
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 20px;
-
-}
-
-.noticia__img{
-    max-width: 100%;
+    &__img{
+        max-width: 100%; 
+    }
 }
 
 /* MAIN */
@@ -142,25 +121,21 @@ img{
 /* ASIDE */
 
 aside {
-    
     text-align: center;
     font-weight: 200;
-}
 
-aside div h2{
-    margin: 100px 30px 30px 0px;
-    font-weight: 200;
-    font-size: 1.5rem;
-    
-}
+    div h2{
+        margin: 100px 30px 30px 0px;
+        font-weight: 200;
+        font-size: 1.5rem;
+    }
 
-aside div h4{
-    color: white;
-    font-weight: 200;
-    font-size: 1.1rem;
-    text-align: center;
-    
-
+    div h4{
+        color: white;
+        font-weight: 200;
+        font-size: 1.1rem;
+        text-align: center;
+    }
 }
 
 .articulo-aside{
@@ -172,25 +147,22 @@ aside div h4{
 }
 /* ASIDE */
 
-
-
-
-
 /* JUegos.html */
-
 
 /* aside juegos */
 
-.juegos-aside__titulo{
-    margin: 100px 30px 30px 0px;
-    font-weight: 200;
-    font-size: 1.5rem;
-}
+.juegos-aside{
 
+    &__titulo{
+        margin: 100px 30px 30px 0px;
+        font-weight: 200;
+        font-size: 1.5rem;
+    }
 
-.juegos-aside__iframe{
-    height: 100vh;
-    width: 100%;
+    &__iframe{
+        height: 100vh;
+        width: 100%;
+    }
 }
 
 /* card de juegos */
@@ -199,13 +171,11 @@ aside div h4{
     background-color: rgba(0, 0, 0, 0.418);
     padding: 20px;
     margin: 20px;
+
+    &__parrafos{
+        padding: 10px;
+    }
 }
-
-
-.parrafo-juego{
-    padding: 10px;
-}
-
 
 /* setups */
 
@@ -214,23 +184,22 @@ aside div h4{
 .setup-card{
     background-color: rgba(0, 0, 0, 0.418);
     padding: 20px;
-   
-}
 
+}
 
 /* tienda.html */
 
 /* carrusel */
 
-.carousel-inner img {
-    width: 100%;
-    max-height: 460px;
-}
-
 .carousel-inner{
- height: 450px;
-}
+    height: 450px;
 
+    img{
+        width: 100%;
+        max-height: 460px; 
+    }
+    
+}
 
 /* card */
 
@@ -248,46 +217,37 @@ aside div h4{
     flex-flow: column;
     justify-content: space-around;
     align-items: center;
-}
 
-.producto__valor{
-    padding: 20px;
-}
+    &__valor{
+        padding: 20px; 
+    }
 
+    &__imagen{
+        max-width: 200px;
+        max-height: 200px;
+    
+    /* animacion de tarjetas de tienda (imagenes con zoom) */
+    
+        &:hover{
+            cursor:zoom-in; 
+            transform: scale(1.5);
+        }
+    }
+}
 
 .boton{
     text-decoration: none;
     background-color: rgba(14, 192, 216, 0.397);
     padding: 10px 15px;
     border-radius: 20px;
+
+    /* animacion de boton agregar carrito */
+    &:hover{
+        transition-delay: 0.5ms;
+        background-color: rgba(14, 192, 216, 0.801);
+    }
     
 }
-
-.producto__imagen{
-    max-width: 200px;
-    max-height: 200px;
-    
-}
-
-
-
-/* animacion de boton agregar carrito */
-
-.boton:hover{
-    transition-delay: 0.5ms;
-    background-color: rgba(14, 192, 216, 0.801);
-
-    
-}
-
-
-/* animacion de tarjetas de tienda (imagenes con zoom) */
-
-.producto__imagen:hover{
-    cursor:zoom-in; 
-    transform: scale(1.5);
-}
-
 
 /* -----tienda.html------ */
 
@@ -301,7 +261,6 @@ aside div h4{
     margin: 20px 20px 40vh 20px;
     background-color: rgba(16, 32, 85, 0.411);
 }
-
 
 /* animacion del avion de formulario */
 
