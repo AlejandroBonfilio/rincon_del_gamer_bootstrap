@@ -1,0 +1,15 @@
+// boton de tienda
+
+.boton{
+    text-decoration: none;
+    background-color: $color-boton-tienda;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+    /* animacion de boton agregar carrito */
+    &:hover{
+        transition-delay: 0.5ms;
+        background-color: $color-boton-tienda-hover;
+    }
+    
+}

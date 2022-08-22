@@ -1,0 +1,56 @@
+/* INDEX.HTML */
+
+/* MAIN */
+
+.section__titulo {
+    margin: 30px 50px 20px 0px;
+    font-weight: $f-400;
+    
+    text-align: center;
+}
+
+.noticia {
+    width: 100%;
+    margin: 0px 50px 30px 0px;
+    background-color: $color-cards;
+
+    &__titulo{
+        font-weight: $f-400;
+    }
+    
+    &__parrafo{
+        font-weight: $f-400;
+    }
+
+    &__img{
+        max-width: 100%; 
+    }
+}
+
+/* MAIN */
+
+
+/* ASIDE */
+
+aside {
+    text-align: center;
+
+    div h2{
+        margin: 100px 30px 30px 0px;
+        font-weight: $f-200;
+    }
+
+    div h4{
+        color: $color-blanco;
+        font-weight: $f-200;
+        text-align: center;
+    }
+}
+
+.articulo-aside{
+    background-color: $color-aside;
+    width: 100%;
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+}
+/* ASIDE */

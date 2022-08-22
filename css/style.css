@@ -1,43 +1,30 @@
-body {
-  /* Fuente */
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  color: white;
-  /* fondo */
-  background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 49%, rgb(0, 212, 255) 94%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Barra de nav */
-}
-body a {
-  text-decoration: none;
-}
-body h1 {
+h1 {
   font-weight: 400;
   font-size: 3rem;
   color: white;
-  padding: 10px 0px 0px 10px;
-}
-body img {
-  max-width: 100%;
-}
-body nav ul li {
-  text-align: center;
-  margin: 0 10px 0 0;
-}
-body nav ul li a {
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 10px;
-}
-body nav ul li a:hover {
-  background-color: white;
 }
 
-.white {
+.fuente-nav {
   color: white;
+}
+.fuente-nav:hover {
+  color: black;
 }
 
 .hamburguesa {
+  background-color: white;
+}
+
+/* Barra de nav */
+nav ul li {
+  text-align: center;
+}
+nav ul li a {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
+nav ul li a:hover {
   background-color: white;
 }
 
@@ -74,92 +61,34 @@ body nav ul li a:hover {
     animation-timing-function: ease-out;
   }
 }
-/* INDEX.HTML */
-/* MAIN */
-.section__titulo {
-  margin: 30px 50px 20px 0px;
-  font-size: 2.5rem;
-  font-weight: 400;
-  text-align: center;
-}
-
-.noticia {
+.formulario {
   width: 100%;
-  padding: 30px;
-  margin: 0px 50px 30px 0px;
+  text-align: center;
+  padding: 30px 30px 0px 30px;
+  margin: 20px 20px 40vh 20px;
   background-color: rgba(0, 0, 0, 0.418);
 }
-.noticia__titulo {
-  font-size: 1.5rem;
-  font-weight: 400;
-  padding: 20px;
+
+body {
+  /* Fuente */
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-.noticia__parrafo {
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 20px;
+body a {
+  text-decoration: none;
 }
-.noticia__img {
+
+body {
+  /* fondo */
+  background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 49%, rgb(0, 212, 255) 94%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
   max-width: 100%;
 }
 
-/* MAIN */
-/* ASIDE */
-aside {
-  text-align: center;
-  font-weight: 200;
-}
-aside div h2 {
-  margin: 100px 30px 30px 0px;
-  font-weight: 200;
-  font-size: 1.5rem;
-}
-aside div h4 {
-  color: white;
-  font-weight: 200;
-  font-size: 1.1rem;
-  text-align: center;
-}
-
-.articulo-aside {
-  background-color: rgba(151, 135, 135, 0.212);
-  width: 100%;
-  padding: 30px;
-  border-radius: 20px;
-  margin: 20px 0px 20px 0px;
-}
-
-/* ASIDE */
-/* JUegos.html */
-/* aside juegos */
-.juegos-aside__titulo {
-  margin: 100px 30px 30px 0px;
-  font-weight: 200;
-  font-size: 1.5rem;
-}
-.juegos-aside__iframe {
-  height: 100vh;
-  width: 100%;
-}
-
-/* card de juegos */
-.juegos {
-  background-color: rgba(0, 0, 0, 0.418);
-  padding: 20px;
-  margin: 20px;
-}
-.juegos__parrafos {
-  padding: 10px;
-}
-
-/* setups */
-/* card de setup */
-.setup-card {
-  background-color: rgba(0, 0, 0, 0.418);
-  padding: 20px;
-}
-
-/* tienda.html */
 /* carrusel */
 .carousel-inner {
   height: 450px;
@@ -169,53 +98,65 @@ aside div h4 {
   max-height: 460px;
 }
 
-/* card */
-.producto {
-  background-color: rgb(255, 255, 255);
-  color: black;
+/* INDEX.HTML */
+/* MAIN */
+.section__titulo {
+  margin: 30px 50px 20px 0px;
+  font-weight: 400;
   text-align: center;
-  width: 300px;
-  padding: 30px;
-  margin: 10px;
-  border-radius: 20px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.producto__valor {
-  padding: 20px;
-}
-.producto__imagen {
-  max-width: 200px;
-  max-height: 200px;
-  /* animacion de tarjetas de tienda (imagenes con zoom) */
-}
-.producto__imagen:hover {
-  cursor: zoom-in;
-  transform: scale(1.5);
 }
 
-.boton {
-  text-decoration: none;
-  background-color: rgba(14, 192, 216, 0.397);
-  padding: 10px 15px;
-  border-radius: 20px;
-  /* animacion de boton agregar carrito */
-}
-.boton:hover {
-  transition-delay: 0.5ms;
-  background-color: rgba(14, 192, 216, 0.801);
-}
-
-/* -----tienda.html------ */
-/* contacto.html */
-.formulario {
+.noticia {
   width: 100%;
+  margin: 0px 50px 30px 0px;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.noticia__titulo {
+  font-weight: 400;
+}
+.noticia__parrafo {
+  font-weight: 400;
+}
+.noticia__img {
+  max-width: 100%;
+}
+
+/* MAIN */
+/* ASIDE */
+aside {
   text-align: center;
-  padding: 30px 30px 0px 30px;
-  margin: 20px 20px 40vh 20px;
-  background-color: rgba(16, 32, 85, 0.411);
+}
+aside div h2 {
+  margin: 100px 30px 30px 0px;
+  font-weight: 200;
+}
+aside div h4 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.articulo-aside {
+  background-color: rgba(151, 135, 135, 0.212);
+  width: 100%;
+  border-radius: 20px;
+  margin: 20px 0px 20px 0px;
+}
+
+/* ASIDE */
+/* aside juegos */
+.juegos-aside__titulo {
+  margin: 100px 30px 30px 0px;
+  font-weight: 200;
+}
+.juegos-aside__iframe {
+  height: 100vh;
+  width: 100%;
+}
+
+/* card de juegos */
+.juegos {
+  background-color: rgba(0, 0, 0, 0.418);
 }
 
 /* animacion del avion de formulario */
@@ -242,6 +183,31 @@ aside div h4 {
   100% {
     transform: translate(500px 300px);
   }
+}
+.setup-card {
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+/* card */
+.producto {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.producto__imagen {
+  max-width: 200px;
+  max-height: 200px;
+  /* animacion de tarjetas de tienda (imagenes con zoom) */
+}
+.producto__imagen:hover {
+  cursor: zoom-in;
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */

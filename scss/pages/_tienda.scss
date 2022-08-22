@@ -1,0 +1,26 @@
+/* card */
+
+.producto{
+    background-color: $color-blanco;
+    color: $color-negro;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__imagen{
+        max-width: 200px;
+        max-height: 200px;
+    
+    /* animacion de tarjetas de tienda (imagenes con zoom) */
+    
+        &:hover{
+            cursor:zoom-in; 
+            transform: scale(1.5);
+        }
+    }
+}

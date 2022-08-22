@@ -1,0 +1,29 @@
+h1 {
+    font-weight: $f-400;
+    font-size: $f-t-3rem;
+    color: $color-blanco;
+}
+
+.fuente-nav{
+    color: $color-blanco;
+    &:hover{
+        color: $color-negro;
+    }
+}
+
+.hamburguesa{
+    background-color: $color-blanco;
+}
+
+/* Barra de nav */
+nav ul li {
+    text-align: center;
+    a{
+        border: 1px solid $color-blanco;
+        border-radius: 10px;
+        color: $color-blanco;
+        &:hover{
+            background-color: $color-blanco;
+        }
+    }
+}
