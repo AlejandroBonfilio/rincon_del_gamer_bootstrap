@@ -210,4 +210,16 @@ aside div h4 {
   transform: scale(1.5);
 }
 
+.boton {
+  text-decoration: none;
+  background-color: rgba(14, 192, 216, 0.397);
+  padding: 10px 15px;
+  border-radius: 20px;
+  /* animacion de boton agregar carrito */
+}
+.boton:hover {
+  transition-delay: 0.5ms;
+  background-color: rgba(14, 192, 216, 0.801);
+}
+
 /*# sourceMappingURL=style.css.map */
