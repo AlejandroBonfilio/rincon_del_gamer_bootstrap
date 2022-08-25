@@ -1,3 +1,8 @@
 .setup-card{
     background-color: $color-cards;
 }
+
+.setup-card--borde{
+    @extend .setup-card;
+    border: 10px solid white;
+}

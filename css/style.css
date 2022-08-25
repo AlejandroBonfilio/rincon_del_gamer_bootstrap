@@ -184,8 +184,12 @@ aside div h4 {
     transform: translate(500px 300px);
   }
 }
-.setup-card {
+.setup-card, .setup-card--borde {
   background-color: rgba(0, 0, 0, 0.418);
+}
+
+.setup-card--borde {
+  border: 10px solid white;
 }
 
 /* card */
