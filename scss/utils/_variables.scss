@@ -3,9 +3,13 @@ $color-blanco: white;
 $color-negro: black;
 $color-cards: rgba(0, 0, 0, 0.418);
 $color-aside: rgba(151, 135, 135, 0.212);
-$color-boton-tienda: rgba(14, 192, 216, 0.397);
-$color-boton-tienda-hover:rgba(14, 192, 216, 0.801);
 $color-fondo:linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 94%);
+
+$boton:(
+    boton-tienda: rgba(14, 192, 216, 0.397),
+    boton-tienda-hover:rgba(14, 192, 216, 0.801),
+);
+
 //Fuente
 $fuente:'Montserrat', sans-serif;
 $f-400:400;
