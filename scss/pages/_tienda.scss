@@ -7,10 +7,7 @@
     width: 300px;
     border-radius: 20px;
 
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
+    @include dflex(column,space-around,center);
 
     &__imagen{
         max-width: 200px;

@@ -200,7 +200,7 @@ aside div h4 {
   width: 300px;
   border-radius: 20px;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
