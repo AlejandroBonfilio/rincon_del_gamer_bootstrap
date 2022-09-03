@@ -10,8 +10,8 @@
     @include dflex(column,space-around,center);
 
     &__imagen{
-        max-width: 200px;
-        max-height: 200px;
+         width: 200px;
+         height: 200px;
     
     /* animacion de tarjetas de tienda (imagenes con zoom) */
     

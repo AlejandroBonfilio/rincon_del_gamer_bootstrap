@@ -87,6 +87,7 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 /* carrusel */
@@ -98,52 +99,6 @@ img {
   max-height: 460px;
 }
 
-/* INDEX.HTML */
-/* MAIN */
-.section__titulo {
-  margin: 30px 50px 20px 0px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.noticia {
-  width: 100%;
-  margin: 0px 50px 30px 0px;
-  background-color: rgba(0, 0, 0, 0.418);
-}
-.noticia__titulo {
-  font-weight: 400;
-}
-.noticia__parrafo {
-  font-weight: 400;
-}
-.noticia__img {
-  max-width: 100%;
-}
-
-/* MAIN */
-/* ASIDE */
-aside {
-  text-align: center;
-}
-aside div h2 {
-  margin: 100px 30px 30px 0px;
-  font-weight: 200;
-}
-aside div h3 {
-  color: white;
-  font-weight: 200;
-  text-align: center;
-}
-
-.articulo-aside {
-  background-color: rgba(151, 135, 135, 0.212);
-  width: 100%;
-  border-radius: 20px;
-  margin: 20px 0px 20px 0px;
-}
-
-/* ASIDE */
 /* aside juegos */
 .juegos-aside__titulo {
   margin: 100px 30px 30px 0px;
@@ -205,8 +160,8 @@ aside div h3 {
   align-items: center;
 }
 .producto__imagen {
-  max-width: 200px;
-  max-height: 200px;
+  width: 200px;
+  height: 200px;
   /* animacion de tarjetas de tienda (imagenes con zoom) */
 }
 .producto__imagen:hover {
@@ -214,6 +169,60 @@ aside div h3 {
   transform: scale(1.5);
 }
 
+/* INDEX.HTML */
+/* MAIN */
+.section__titulo {
+  margin: 30px 50px 20px 0px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.noticia {
+  width: 100%;
+  margin: 0px 50px 30px 0px;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.noticia__titulo {
+  font-weight: 400;
+}
+.noticia__parrafo {
+  font-weight: 400;
+}
+
+/* MAIN */
+/* ASIDE */
+aside {
+  text-align: center;
+}
+aside div h2 {
+  margin: 100px 30px 30px 0px;
+  font-weight: 200;
+}
+aside div h3 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.articulo-aside {
+  background-color: rgba(151, 135, 135, 0.212);
+  width: 100%;
+  border-radius: 20px;
+  margin: 20px 0px 20px 0px;
+}
+
+/* ASIDE */
+@media (max-width: 768px) {
+  .noticia {
+    background-color: red;
+  }
+  .noticia__parrafo {
+    font-size: 10rem;
+  }
+  .noticia__titulo {
+    font-size: 10rem;
+  }
+}
 .boton {
   text-decoration: none;
   background-color: rgba(14, 192, 216, 0.397);

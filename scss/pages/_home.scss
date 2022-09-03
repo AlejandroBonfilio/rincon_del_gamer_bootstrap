@@ -1,5 +1,6 @@
 /* INDEX.HTML */
 
+
 /* MAIN */
 
 .section__titulo {
@@ -22,9 +23,6 @@
         font-weight: $f-400;
     }
 
-    &__img{
-        max-width: 100%; 
-    }
 }
 
 /* MAIN */
@@ -54,3 +52,21 @@ aside {
     margin: 20px 0px 20px 0px;
 }
 /* ASIDE */
+
+//media query para la fuente mobile 
+
+@media (max-width: 768px) {
+    .noticia{
+        background-color: red;
+        
+        
+    }
+    .noticia__parrafo{
+        font-size: 10rem
+    }
+
+    .noticia__titulo{
+        font-size: 10rem;
+    }
+}
+
