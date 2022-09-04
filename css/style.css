@@ -43,7 +43,7 @@ aside div h3 {
 /* ASIDE */
 @media (max-width: 768px) {
   .noticia__parrafo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .noticia__titulo {
     font-size: 2rem;
@@ -59,7 +59,7 @@ aside div h3 {
 }
 h1 {
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: white;
 }
 
