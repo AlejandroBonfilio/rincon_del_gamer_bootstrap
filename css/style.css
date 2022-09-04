@@ -16,6 +16,7 @@
 }
 .noticia__parrafo {
   font-weight: 400;
+  font-size: 1.3rem;
 }
 
 /* MAIN */
@@ -47,7 +48,7 @@ aside div h3 {
   }
   .noticia__titulo {
     font-size: 2rem;
-    text-decoration: underline white;
+    text-decoration: underline rgba(255, 255, 255, 0.562);
   }
   aside div h2 {
     font-size: 2rem;
@@ -163,16 +164,28 @@ img {
   margin: 100px 30px 30px 0px;
   font-weight: 200;
 }
-.juegos-aside__iframe {
-  height: 100vh;
-  width: 100%;
-}
 
 /* card de juegos */
 .juegos {
   background-color: rgba(0, 0, 0, 0.418);
 }
+.juegos__parrafo {
+  font-size: 1.2rem;
+}
 
+@media (max-width: 768px) {
+  .juegos__titulo {
+    font-size: 2rem;
+    text-decoration: underline rgba(255, 255, 255, 0.562);
+  }
+  .juegos__parrafo {
+    font-size: 1.4rem;
+  }
+  .juegos__subtitulo {
+    font-size: 1.8rem;
+    text-decoration: underline rgba(255, 255, 255, 0.322);
+  }
+}
 /* animacion del avion de formulario */
 .avion {
   width: 200px;

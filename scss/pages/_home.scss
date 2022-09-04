@@ -21,6 +21,7 @@
     
     &__parrafo{
         font-weight: $f-400;
+        font-size: 1.3rem;
         
     }
 
@@ -64,7 +65,7 @@ aside {
     }
     .noticia__titulo{
         font-size: 2rem;
-        text-decoration: underline white;
+        text-decoration: underline rgba(255, 255, 255, 0.562);
     }
 
     aside div h2{
