@@ -21,8 +21,10 @@
     
     &__parrafo{
         font-weight: $f-400;
+        
     }
 
+    
 }
 
 /* MAIN */
@@ -53,20 +55,24 @@ aside {
 }
 /* ASIDE */
 
-//media query para la fuente mobile 
 
-@media (max-width: 768px) {
-    .noticia{
-        background-color: red;
-        
-        
-    }
+//media query font size index
+
+@media (max-width:768px){
     .noticia__parrafo{
-        font-size: 10rem
+        font-size: 1.5rem;
     }
-
     .noticia__titulo{
-        font-size: 10rem;
+        font-size: 2rem;
+        text-decoration: underline white;
     }
-}
 
+    aside div h2{
+        font-size: 2rem;
+    }
+    aside div h3{
+        font-size: 1.5rem;
+        background-color: rgba(47, 77, 77, 0.363);
+    }
+
+}

@@ -1,3 +1,62 @@
+/* INDEX.HTML */
+/* MAIN */
+.section__titulo {
+  margin: 30px 50px 20px 0px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.noticia {
+  width: 100%;
+  margin: 0px 50px 30px 0px;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.noticia__titulo {
+  font-weight: 400;
+}
+.noticia__parrafo {
+  font-weight: 400;
+}
+
+/* MAIN */
+/* ASIDE */
+aside {
+  text-align: center;
+}
+aside div h2 {
+  margin: 100px 30px 30px 0px;
+  font-weight: 200;
+}
+aside div h3 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.articulo-aside {
+  background-color: rgba(151, 135, 135, 0.212);
+  width: 100%;
+  border-radius: 20px;
+  margin: 20px 0px 20px 0px;
+}
+
+/* ASIDE */
+@media (max-width: 768px) {
+  .noticia__parrafo {
+    font-size: 1.5rem;
+  }
+  .noticia__titulo {
+    font-size: 2rem;
+    text-decoration: underline white;
+  }
+  aside div h2 {
+    font-size: 2rem;
+  }
+  aside div h3 {
+    font-size: 1.5rem;
+    background-color: rgba(47, 77, 77, 0.363);
+  }
+}
 h1 {
   font-weight: 400;
   font-size: 3rem;
@@ -169,60 +228,6 @@ img {
   transform: scale(1.5);
 }
 
-/* INDEX.HTML */
-/* MAIN */
-.section__titulo {
-  margin: 30px 50px 20px 0px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.noticia {
-  width: 100%;
-  margin: 0px 50px 30px 0px;
-  background-color: rgba(0, 0, 0, 0.418);
-}
-.noticia__titulo {
-  font-weight: 400;
-}
-.noticia__parrafo {
-  font-weight: 400;
-}
-
-/* MAIN */
-/* ASIDE */
-aside {
-  text-align: center;
-}
-aside div h2 {
-  margin: 100px 30px 30px 0px;
-  font-weight: 200;
-}
-aside div h3 {
-  color: white;
-  font-weight: 200;
-  text-align: center;
-}
-
-.articulo-aside {
-  background-color: rgba(151, 135, 135, 0.212);
-  width: 100%;
-  border-radius: 20px;
-  margin: 20px 0px 20px 0px;
-}
-
-/* ASIDE */
-@media (max-width: 768px) {
-  .noticia {
-    background-color: red;
-  }
-  .noticia__parrafo {
-    font-size: 10rem;
-  }
-  .noticia__titulo {
-    font-size: 10rem;
-  }
-}
 .boton {
   text-decoration: none;
   background-color: rgba(14, 192, 216, 0.397);
