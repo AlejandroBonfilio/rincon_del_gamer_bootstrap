@@ -25,7 +25,7 @@ aside {
   text-align: center;
 }
 aside div h2 {
-  margin: 50px 30px 30px 0px;
+  margin: 50px 30px 30px 30px;
   font-weight: 200;
 }
 aside div h3 {
@@ -250,14 +250,29 @@ img {
     text-decoration: underline rgba(255, 255, 255, 0.562);
   }
 }
-.setups-articulo-aside {
+.setups-articulo-aside, .setups-articulo-aside-c, .setups-articulo-aside-b, .setups-articulo-aside-a {
   min-width: 300px;
   background-color: rgba(151, 135, 135, 0.212);
   text-align: center;
   margin: 10px;
   border-radius: 5px;
   padding: 20px;
+}
+
+.setups-articulo-aside-a {
   background-image: url(/imagenes/tienda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.setups-articulo-aside-b {
+  background-image: url(/imagenes/quarry.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.setups-articulo-aside-c {
+  background-image: url(/imagenes/howarts_legacy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
