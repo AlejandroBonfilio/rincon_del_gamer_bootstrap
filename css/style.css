@@ -121,14 +121,26 @@ nav ul li a:hover {
     animation-timing-function: ease-out;
   }
 }
+/* -----contacto.html------ */
 .formulario {
-  width: 100%;
+  width: 400px;
   text-align: center;
-  padding: 30px 30px 0px 30px;
-  margin: 20px 20px 40vh 0px;
-  background-color: rgba(0, 0, 0, 0.418);
+  padding: 30px;
+  margin: 20px;
+  border: 2px solid white;
+  align-self: center;
+  background-color: black;
 }
 
+.titulo_formulario {
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* -----contacto.html------ */
 body {
   /* Fuente */
   font-family: "Montserrat", sans-serif;
@@ -186,31 +198,31 @@ img {
     text-decoration: underline rgba(255, 255, 255, 0.322);
   }
 }
-/* animacion del avion de formulario */
-.avion {
-  width: 200px;
-  animation-name: avion;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
+.name {
+  display: inline-block;
+  margin: 20px;
 }
 
-@keyframes avion {
-  0% {
-    transform: translate(0px, 0px) rotateX(20deg);
-  }
-  25% {
-    transform: translate(180px, 90px) rotateX(45deg);
-  }
-  50% {
-    transform: translate(360px, 180px) scale(2);
-  }
-  75% {
-    transform: translate(550px) rotateX(225deg);
-  }
-  100% {
-    transform: translate(500px 300px);
-  }
+.email {
+  display: inline-block;
+  margin: 20px;
 }
+
+.fieldset {
+  border: 1px solid white;
+  margin: 10px;
+}
+
+.formulario-completo {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url(/imagenes/carrusel4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .setup-card, .setup-card--borde {
   background-color: rgba(0, 0, 0, 0.418);
 }
@@ -314,6 +326,22 @@ img {
 .boton:hover {
   transition-delay: 0.5ms;
   background-color: rgba(14, 192, 216, 0.801);
+}
+
+.formulario__boton {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 15px;
+  /* animacion de boton agregar carrito */
+}
+.formulario__boton:hover {
+  transition-delay: 0.5ms;
+  background-color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

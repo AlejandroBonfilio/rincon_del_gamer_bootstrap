@@ -1,35 +1,28 @@
-/* animacion del avion de formulario */
-
-.avion{
-    width: 200px;
-    
-    animation-name: avion;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+//formulario 
+.name{
+    display: inline-block;
+    margin: 20px;
 }
 
-@keyframes avion {
+.email{
+    display: inline-block;
+    margin: 20px;
     
-    0%{
-        transform: translate(0px,0px) rotateX(20deg);
-        
-    }
-    
-    25%{
-        transform: translate(180px,90px) rotateX(45deg);
-    }
-    
-    50%{
-        transform: translate(360px,180px) scale(2);
-    }
+}
 
-    75%{
-        transform: translate(550px) rotateX(225deg);
-    }    
-        
+.fieldset{
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.formulario-completo{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-image: url(/imagenes/carrusel4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
-    100%{
-        transform: translate(500px 300px);
-        
-    }
 }

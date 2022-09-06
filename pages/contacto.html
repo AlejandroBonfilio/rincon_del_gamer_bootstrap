@@ -66,48 +66,45 @@
             </div>
         </nav>
     </header>
-    <section class="container">
-        <div>
+    <section class="formulario-completo">
+        <div >
+            <h2 class="titulo_formulario">Para recibir mas INFO sobre el mundo gamer completá este formulario:</h2>  
+        </div>
+        <form class="formulario" method="post">
             <div>
-                <h2 class="fs-1 section__titulo">Para recibir mas INFO sobre el mundo gamer completá este formulario...</h2>
+                <label for="name">Nombre:</label>
+                <input id="name" placeholder="Nombre" name="name">
+            </div>    
+            <div>
+                <label for="email">EMail:</label>
+                <input type="email" id="email" placeholder="Email" name="email">
+            </div>
+            <br><br>
+            <fieldset class="fieldset">
+                <legend>Eres</legend>
+                <p class="fs-5">
+                    Hombre<input id="r1" name="salector" type="radio">
+                    Mujer<input id="r2" name="salector" type="radio">
+                    Elfo<input id="r3" name="salector" type="radio">
+                    Orco<input id="r4" name="salector" type="radio">
+                    Hobbit<input id="r5" name="salector" type="radio">
+                    Enano<input id="r6" name="salector" type="radio">
+                </p>
+            </fieldset>
+            <div>
+                <label for="comentario">Deje su comentario: </label>
+                
+                <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="Ingrese comentario..."></textarea>
             </div>
             <div>
-                <img class="avion" src="../imagenes/avion.png" alt="">
+                <label for="checkbox">Quiero recibir novedades en mi Email</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
             </div>
-            <form class="formulario" method="post">
-                <div>
-                    <label for="name">Nombre:</label>
-                    <input id="name" placeholder="Nombre" name="name">
-                </div>    
-                <div>
-                    <label for="email">EMail:</label>
-                    <input type="email" id="email" placeholder="Email" name="email">
-                </div>
-                <fieldset>
-                    <legend>Eres</legend>
-                    <p>
-                        Hombre<input id="r1" name="salector" type="radio">
-                        Mujer<input id="r2" name="salector" type="radio">
-                        Elfo<input id="r3" name="salector" type="radio">
-                        Orco<input id="r4" name="salector" type="radio">
-                        Hobbit<input id="r5" name="salector" type="radio">
-                    </p>
-                </fieldset>
-                <div>
-                    <label for="comentario">Deje su comentario: </label>
-                    
-                    <textarea name="comentario" id="comentario" cols="45" rows="10" placeholder="Ingrese comentario..."></textarea>
-                </div>
-                <div>
-                    <label for="checkbox">Quiero recibir novedades en mi Email</label>
-                    <input type="checkbox" id="checkbox" name="checkbox">
-                </div>
-                <div>
-                    <input type="submit" name="enviar" id="enviar" value="Suscribirse">
-                </div>
-            </form>
-        </div>  
-    </section>
+            <div>
+                <input class="formulario__boton" type="submit" name="enviar" id="enviar" value="Suscribirse">
+            </div>
+        </form>
+</section>
     <footer class="bg-dark text-center text-white">
         <div class="container p-4">
             <section class="mb-4">

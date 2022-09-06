@@ -13,3 +13,22 @@
     }
     
 }
+
+//boton de formulario pagina contacto
+
+.formulario__boton{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 15px;
+
+    /* animacion de boton agregar carrito */
+    &:hover{
+        transition-delay: 0.5ms;
+        background-color: white;
+        color:black;
+    } 
+}
