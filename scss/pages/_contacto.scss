@@ -1,4 +1,5 @@
 //formulario 
+
 .name{
     display: inline-block;
     margin: 20px;
@@ -21,7 +22,7 @@
     flex-direction: column;
     justify-content: space-around;
 
-    background-image: url(../imagenes/carrusel4.jpg);
+    background-image: url("../imagenes/carrusel4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     

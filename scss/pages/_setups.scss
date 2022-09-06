@@ -67,21 +67,21 @@
 
 .setups-articulo-aside-a{
     @extend .setups-articulo-aside;
-    background-image: url(../imagenes/tienda.jpg);
+    background-image: url("../imagenes/tienda.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .setups-articulo-aside-b{
     @extend .setups-articulo-aside;
-    background-image: url(../imagenes/quarry.png);
+    background-image: url("../imagenes/quarry.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .setups-articulo-aside-c{
     @extend .setups-articulo-aside;
-    background-image: url(../imagenes/howarts_legacy.jpg);
+    background-image: url("../imagenes/howarts_legacy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

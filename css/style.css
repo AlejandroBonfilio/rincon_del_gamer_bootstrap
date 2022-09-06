@@ -121,7 +121,6 @@ nav ul li a:hover {
     animation-timing-function: ease-out;
   }
 }
-/* -----contacto.html------ */
 .formulario {
   width: 400px;
   text-align: center;
@@ -140,7 +139,6 @@ nav ul li a:hover {
   border-radius: 20px;
 }
 
-/* -----contacto.html------ */
 body {
   /* Fuente */
   font-family: "Montserrat", sans-serif;
@@ -218,7 +216,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url(/imagenes/carrusel4.jpg);
+  background-image: url("../imagenes/carrusel4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -272,19 +270,19 @@ img {
 }
 
 .setups-articulo-aside-a {
-  background-image: url(/imagenes/tienda.jpg);
+  background-image: url("../imagenes/tienda.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .setups-articulo-aside-b {
-  background-image: url(/imagenes/quarry.png);
+  background-image: url("../imagenes/quarry.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .setups-articulo-aside-c {
-  background-image: url(/imagenes/howarts_legacy.jpg);
+  background-image: url("../imagenes/howarts_legacy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
