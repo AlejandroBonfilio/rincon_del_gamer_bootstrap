@@ -121,6 +121,22 @@ nav ul li a:hover {
     animation-timing-function: ease-out;
   }
 }
+.flecha-subir {
+  width: 70px;
+  position: fixed;
+  bottom: 100px;
+  right: 1vw;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.flecha-subir:hover {
+  background-color: white;
+  color: black;
+}
+
 .formulario {
   width: 350px;
   text-align: center;
