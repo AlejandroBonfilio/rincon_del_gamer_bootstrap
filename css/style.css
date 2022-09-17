@@ -323,6 +323,9 @@ img {
   justify-content: space-around;
   align-items: center;
 }
+.producto:hover {
+  box-shadow: 2px solid white;
+}
 .producto__imagen {
   width: 200px;
   height: 200px;
@@ -331,6 +334,7 @@ img {
 .producto__imagen:hover {
   cursor: zoom-in;
   transform: scale(1.5);
+  transition: 2s;
 }
 
 @media (max-width: 768px) {

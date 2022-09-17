@@ -9,6 +9,10 @@
 
     @include dflex(column,space-around,center);
 
+    &:hover{
+        box-shadow: 2px solid white;
+    }
+
     &__imagen{
          width: 200px;
          height: 200px;
@@ -18,6 +22,7 @@
         &:hover{
             cursor:zoom-in; 
             transform: scale(1.5);
+            transition: 2s;
         }
     }
 }
