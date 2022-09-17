@@ -1,9 +1,10 @@
+//titulo del header
 h1 {
     font-weight: $f-400;
     font-size: 1.8rem;
     color: $color-blanco;
 }
-
+//botones de nav personalizados
 .fuente-nav{
     color: $color-blanco;
     &:hover{
@@ -11,6 +12,7 @@ h1 {
     }
 }
 
+//menu hamburguesa
 .hamburguesa{
     background-color: $color-blanco;
 }

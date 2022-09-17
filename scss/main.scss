@@ -1,6 +1,5 @@
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./pages/home";
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/forms";
@@ -8,8 +7,10 @@
 @import "./base/background";
 @import "./components/img";
 @import "./components/carousel";
+@import "./components/buttons";
+@import "./pages/home";
 @import "./pages/juegos";
 @import "./pages/contacto";
 @import "./pages/setups";
 @import "./pages/tienda";
-@import "./components/buttons";
+

@@ -8,9 +8,9 @@
     border-radius: 20px;
 
     @include dflex(column,space-around,center);
-
+    //sombra de la card producto
     &:hover{
-        box-shadow: 2px solid white;
+        box-shadow: 0px 0px 10px 5px rgb(36, 167, 95);
     }
 
     &__imagen{
@@ -27,7 +27,7 @@
     }
 }
 
-
+//saca el carrusel cuando se hace mobile
 @media (max-width:768px){
     .carrusel{
         display: none;

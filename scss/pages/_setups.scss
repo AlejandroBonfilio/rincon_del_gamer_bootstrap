@@ -51,6 +51,7 @@
 
 }
 
+//cards que se deslizan en articulos interesantes de pagina setups
 .setups-articulo-aside{
     min-width: 300px;
     background-color: $color-aside;
@@ -59,27 +60,24 @@
     border-radius: 5px;
     padding: 20px;
     
-    
+    &-a{
+        @extend .setups-articulo-aside;
+        background-image: url("../imagenes/tienda.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-b{
+        @extend .setups-articulo-aside;
+        background-image: url("../imagenes/quarry.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-c{
+        @extend .setups-articulo-aside;
+        background-image: url("../imagenes/howarts_legacy.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
-.setups-articulo-aside-a{
-    @extend .setups-articulo-aside;
-    background-image: url("../imagenes/tienda.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.setups-articulo-aside-b{
-    @extend .setups-articulo-aside;
-    background-image: url("../imagenes/quarry.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.setups-articulo-aside-c{
-    @extend .setups-articulo-aside;
-    background-image: url("../imagenes/howarts_legacy.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 

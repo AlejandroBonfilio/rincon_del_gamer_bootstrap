@@ -1,3 +1,5 @@
+
+//fondo de la web
 body{
     /* fondo */
     background: $color-fondo;
@@ -5,11 +7,3 @@ body{
     background-size: cover;
 
 }
-
-:root{
-    scroll-behavior: smooth;
-}
-
-html {
-    scroll-behavior: smooth;
-  }
