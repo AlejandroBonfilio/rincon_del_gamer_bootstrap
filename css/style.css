@@ -171,6 +171,14 @@ body {
   background-size: cover;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   height: auto;

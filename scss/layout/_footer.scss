@@ -17,6 +17,7 @@
     10%{
         transform:scale(.91);
         animation-timing-function:ease-in;
+        
     }
     17%{
         transform:scale(.98);animation-timing-function:ease-out;
@@ -36,6 +37,7 @@
     bottom: 100px;
     right: 1vw;
 
+
     font-size: 2rem;
     color: rgb(255, 255, 255);
     border: 1px solid white;
@@ -46,3 +48,4 @@
     background-color: white;
     color: black;
 }
+
