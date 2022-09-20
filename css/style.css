@@ -239,19 +239,9 @@ aside div h3 {
     text-decoration: underline rgba(255, 255, 255, 0.322);
   }
 }
-.name {
-  display: inline-block;
-  margin: 20px;
-}
-
-.email {
-  display: inline-block;
-  margin: 20px;
-}
-
 .fieldset {
   border: 1px solid white;
-  margin: 10px;
+  margin: 0px 10px 10px 10px;
 }
 
 .formulario-completo {
@@ -262,6 +252,16 @@ aside div h3 {
   background-image: url("../imagenes/carrusel4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.nombre {
+  width: 50px;
+  margin: 0px 10px 10px 10px;
+}
+
+.email {
+  width: 50px;
+  margin: 10px 10px 0px 10px;
 }
 
 .setup-card, .setup-card--borde {
